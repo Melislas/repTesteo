@@ -1,0 +1,131 @@
+.menu{
+    display: flex;
+    background-color: #a9e9a4;
+    width: 100%;
+    height: 30px;
+    justify-content: end;
+    border-radius: 15px;
+    padding-block-start: 15px;
+}
+  
+.bajomenu{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-radius: 8px;
+    align-items:stretch;
+    padding-block-end: 10px;
+    padding-right: 10px;
+    justify-content: space-around;
+}
+nav a{
+  color: rgb(1, 107, 7);
+  font-family:sans-serif;    
+  background-color: rgb(180, 255, 199);
+  border-style:double;
+}
+
+
+footer{
+  display: flex;
+  border-radius: 15px;
+  color: rgb(1, 107, 7);
+  background-color: #a9e9a4;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.pie{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  color: rgb(1, 107, 7);
+  background-color: #a9e9a4;
+  width: 100%;
+  height: 100px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+input{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+ 
+
+button{
+  background-color: #9edfa1;
+  border-radius: 20px;
+  color: white;
+}
+
+ul li a{
+  color: green;
+}
+
+h1{
+  color: rgb(169, 235, 71)
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color:rgb(169, 235, 71)
+}
+textarea{
+  background-color: #cce7ca;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ 
+form div span{
+  color: red;
+
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  border: 2px solid #1dee8c; 
+  background-color:beige;
+  width: 50%;
+  padding: 10px; 
+  margin-top: 10px; 
+  border-radius: 20px;
+  
+}
+
